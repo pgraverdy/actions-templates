@@ -10,3 +10,5 @@ DISABLE:
   - SPELL # Comment to disable checks of spelling mistakes # - SPELL # Uncomment to disable checks of spelling mistakes
 SHOW_ELAPSED_TIME: true
 FILEIO_REPORTER: false
+DISABLE_LINTERS:
+  - BASH_SHFMT # disable due to missing shfmt
